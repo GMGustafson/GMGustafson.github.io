@@ -1,9 +1,9 @@
 body {
-background: light pink;
+background: [light pink];
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: black;
+color: [black];
 text-align: center;
 }
 .assign {
