@@ -1,9 +1,9 @@
 body {
-	background: '#Ffb6c1';
+	background: '#FFC0CB';
 	font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-	color: '#0000ff';
+	color: '#191970';
 	text-align: center;
 }
 
@@ -11,7 +11,7 @@ h1 {
 	display: flex;
 	padding: 10px;
 	margin: 10px;
-	background: '#808080';
+	background: '#D3D3D3';
 }
 .assign img {
 	width: 200px;
