@@ -18,10 +18,17 @@ h1 {
 	padding: 10px;
 }
 a {
- text-decoration: none; /* remove underlining on anchor tags */
- color: #FF1493; /* pick the color you want */
+ text-decoration: none; 
+ color: #FF1493; 
+
+.assign {
+width: 20%;
+box-shadow: 8px 8px #000000;
+display: block; 
+border-radius: 20px; 
+}
 }
 .assign img {
- padding: 10px; /* change this from margin to padding */
- border: 2px solid #778899; /* try dashed, dotted */
+ padding: 10px; 
+ border: 2px solid #778899; 
 }
