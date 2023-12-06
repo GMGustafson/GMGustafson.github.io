@@ -1,13 +1,13 @@
 body 
 {
-	 background-color: #FFC0CB;
+	 background-color: #c1e1ec;
 	 font-family: Arial, Helvetica, sans-serif;
 	 display: flex;
 	 flex-wrap: wrap;
 }
 h1 
 {
-	 color: #FF1493;
+	 color: #000080;
 	 text-align: center;
 	 width: 100%;
 }
