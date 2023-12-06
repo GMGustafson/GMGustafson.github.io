@@ -13,7 +13,7 @@ h1
 }
 h1:hover 
 {
- color: #6495ed;
+ color: #FFFFFF ;
  text-align: center;
  width: 100%;
 }
@@ -29,7 +29,7 @@ a
  padding: 10px;
  border-radius: 20px;
  width: 20%;
- box-shadow: 8px 8px #FFFFFF;
+ box-shadow: 8px 8px #6495ed;
  display: block; /* instead of flex */
 }
 .assign img 
