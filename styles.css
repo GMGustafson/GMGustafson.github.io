@@ -13,7 +13,7 @@ h1
 }
 h1:hover 
 {
- color: #F8F8FF;
+ color: #6495ed;
  text-align: center;
  width: 100%;
 }
@@ -24,7 +24,7 @@ a
 }
 .assign 
 {
- background-color: #6495ed;
+ background-color: #F8F8FF;
  margin: 10px;
  padding: 10px;
  border-radius: 20px;
