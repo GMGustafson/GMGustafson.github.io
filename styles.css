@@ -29,19 +29,19 @@ a
  padding: 10px;
  border-radius: 20px;
  width: 20%;
- box-shadow: 8px 8px #FFBF00;
+ box-shadow: 8px 8px #0000ff;
  display: block; /* instead of flex */
 }
 .assign img 
 {
  width: 200px;
  margin: 10px;
- border: 2px solid #000000;
+ border: 2px solid #000080;
 }
 .assign img:hover 
 {
  width: 200px;
  margin: 10px;
- border: 2px dotted #DFFF00;
+ border: 2px dotted #8a2be2;
 }
 
