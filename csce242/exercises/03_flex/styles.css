@@ -11,7 +11,7 @@ body{
     background:rgba(255,255,255,0.6); 
     border-radius:5px;
 }
-#species
+#species section
 { 
     background:lightskyblue;
     padding:5px; 
@@ -25,7 +25,7 @@ body{
 
 #news section 
 { 
-    background: purple; 
+    background:hotpink; 
 }
 img{ 
     max-width:100%;
@@ -48,7 +48,7 @@ img{
 #main_nav li
 { 
     list-style:none; 
-    border-bottom: 2px solid rgba(127, 249, 249, 0.6);;
+    border-bottom: 1px solid rgba(127, 249, 249, 0.6);;
 }
 #main_nav a
 {
