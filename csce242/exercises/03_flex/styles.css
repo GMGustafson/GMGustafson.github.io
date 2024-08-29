@@ -6,19 +6,103 @@ body{
 
 #content
 { 
-    width:70%;
+    width: 95%;
     margin:auto;
-    background:#fff; 
+    background:rgba(255,255,255,0.6); 
     border-radius:5px;
+}
+#species
+{ 
+    background:lightskyblue;
+    padding:5px; 
+    margin:5px;
+}
 
+#main_aside
+{ 
+    background: pink; 
+}
+
+#news section 
+{ 
+    background: purple; 
+}
+img{ 
+    max-width:100%;
+}
+#main_header
+{ 
+    background-color: rgba(127, 249, 249, 0.6);
+    border-radius:5px;
+}
+#main-footer
+{ 
+    background-color:aquamarine;
+}
+
+/* Navigation*/
+#main_nav ul
+{ 
+    padding-left:0; 
+}
+#main_nav li
+{ 
+    list-style:none; 
+    border-bottom: 2px solid rgba(127, 249, 249, 0.6);;
+}
+#main_nav a
+{
+    text-decoration: none; 
+    padding:5px; 
+    background:blue; 
+    color: white; 
+    display: block;
 }
 
 
-/* Navigation*/
-
 
 /* Typography*/
+#main_footer p
+{ 
+    text-align:center; 
+}
 
 
 /* Media Queries */
+
+/* apply to 600px or bigger */
+@media only screen and (min-width:600px)
+{
+    .columns
+    { 
+        display:flex; 
+    }
+    .one
+    { 
+        flex:1;
+    }
+    .two
+    { 
+        flex:2; 
+    }
+    .three
+    { 
+        flex:3; 
+    }
+    .four
+    { 
+        flex:4; 
+    }
+    #main_nav li{ 
+        flex:1;
+    }
+    
+}
+
+
+/* apply to 768px or bigger */
+@media only screen and (min-width:768px)
+{
+
+}
 
