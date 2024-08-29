@@ -29,7 +29,7 @@ body
 
 #Assignment
 {
-    background: darkgray; 
+  background: darkgray; 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
@@ -45,5 +45,17 @@ body
   width:70%; 
   border-radius: 30px;  
   border:5px solid black;
+}
+
+#assignment_links a
+{ 
+  text-decoration: none; /* no underline*/ 
+  color: black; 
+}
+
+#exercise_links a
+{ 
+  text-decoration: none; /* no underline*/ 
+  color: black; 
 }
 
