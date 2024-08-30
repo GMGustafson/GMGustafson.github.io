@@ -57,9 +57,15 @@ body
 { 
   text-decoration: none;  
   color: black; 
+   
 }
-#main-nav li 
+#exercise_links li  
 { 
-    list-style-type: none; 
+  list-style-type: none;
 }
 
+#assignment_links li 
+{ 
+  list-style-type: none;
+
+}
