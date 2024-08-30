@@ -49,13 +49,17 @@ body
 
 #assignment_links a
 { 
-  text-decoration: none; /* no underline*/ 
+  text-decoration: none;  
   color: black; 
 }
 
 #exercise_links a
 { 
-  text-decoration: none; /* no underline*/ 
+  text-decoration: none;  
   color: black; 
+}
+#main-nav li 
+{ 
+    list-style-type: none; 
 }
 
