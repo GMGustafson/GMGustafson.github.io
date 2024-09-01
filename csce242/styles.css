@@ -9,15 +9,35 @@ body
 #heading
 {
   padding: 10px; 
-  margin: 20px; 
+  margin-bottom: 0px; 
   width:70%; 
   padding-left:0;
   margin: auto; 
   width:fit-content;
   font-size: large;
 }
+#subheading
+{
+  padding: 0px; 
+  margin: 0px; 
+  width:70%; 
+  padding-left:0;
+  padding-top: 0;
+  margin: auto; 
+  width:fit-content;
+  font-size: large;
+}
 
-#content
+#assignment-1
+{
+  background: darkgray; 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 30px;  
+  border:5px solid black;
+}
+#assignment-2
 {
   background: darkgray; 
   padding: 10px; 
@@ -27,8 +47,33 @@ body
   border:5px solid black;
 }
 
-#Assignment
+#excersise-1
+{ 
+  background: darkgray; 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 30px;  
+  border:5px solid black;
+}
+
+a
 {
+  text-decoration: none;  
+  color: black;
+}
+
+#excersise-2
+{ 
+  background: darkgray; 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 30px;  
+  border:5px solid black;
+}
+#excersise-3
+{ 
   background: darkgray; 
   padding: 10px; 
   margin: 20px; 
@@ -37,35 +82,46 @@ body
   border:5px solid black;
 }
 
-#Exercises
+img
 { 
-  background: darkgray; 
-  padding: 10px; 
-  margin: 20px; 
-  width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  max-height: 150px;
+  max-width: 300px;
 }
 
-#assignment_links a
-{ 
-  text-decoration: none;  
-  color: black; 
+/* Media Queries */
+
+/* apply to 600px or bigger */
+@media only screen and (min-width:600px)
+{
+    .columns
+    { 
+        display:flex; 
+    }
+    .one
+    { 
+        flex:1;
+    }
+    .two
+    { 
+        flex:2; 
+    }
+    .three
+    { 
+        flex:3; 
+    }
+    .four
+    { 
+        flex:4; 
+    }
+    #main_nav li{ 
+        flex:1;
+    }
+    
 }
 
-#exercise_links a
-{ 
-  text-decoration: none;  
-  color: black; 
-   
-}
-#exercise_links li  
-{ 
-  list-style-type: none;
-}
 
-#assignment_links li 
-{ 
-  list-style-type: none;
+/* apply to 768px or bigger */
+@media only screen and (min-width:768px)
+{
 
 }
