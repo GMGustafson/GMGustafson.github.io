@@ -38,29 +38,27 @@ img
 #main-nav li
 { 
     list-style:none; 
-    background-color: black;
+    background-color: rgb(237, 150, 150);
     padding: 5px;
     margin: 0.5px;
 }
 #main-nav a
 {
     text-decoration: none; 
-    /*padding:5px;*/
     color: white; 
     display: block;
 }
 
 /* footer*/
-.flex-container 
+#flex-container 
 {
     display: flex;
     height: 200px;
-    align-items: baseline;
+    align-items: middle;
 }
   
-  .flex-container > div 
+#flex-container div 
   {
-    background-color: #f1f1f1;
     width: 100px;
     margin: 10px;
     text-align: center;
@@ -69,9 +67,19 @@ img
   }
 
 /* Typography*/
+#main-stuff h3
+{ 
+    text-align:center;
+}
+#main-footer
+{ 
+    padding-left:50px;
+    color:rgba(39, 93, 44, 0.6); 
+}
 #copy
 { 
     text-align:center; 
+    color:rgba(39, 93, 44, 0.6); 
 }
 #main-header
 { 
@@ -107,12 +115,19 @@ img
     { 
         display:flex; 
     }
-
+    .one
+    {
+        flex:1;
+    }
+    .three
+    { 
+        flex:3;
+    }
     .five
     { 
         flex:5;
     }
-    #main_nav li
+    #main-nav li
     {
         flex:1;
     }
