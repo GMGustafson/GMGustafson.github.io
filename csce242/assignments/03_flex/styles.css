@@ -33,7 +33,7 @@ img
 /* Navigation*/
 #main-nav ul
 { 
-    padding-left:0; 
+    padding-left:0;
 }
 #main-nav li
 { 
@@ -50,14 +50,14 @@ img
 }
 
 /* footer*/
-#flex-container 
+.flex-container 
 {
     display: flex;
     height: 200px;
     align-items: middle;
 }
   
-#flex-container div 
+.flex-container div 
   {
     width: 100px;
     margin: 10px;
@@ -137,5 +137,21 @@ img
     }
     
 }
+@media only screen and (max-width: 768px) 
+{
+    .flex-container 
+    {
+        display: block;
+    }
+    #main-nav ul
+    {
+        display: block;
 
+    }
+    .columns
+    { 
+        display:block; 
+    }
+
+}
 
