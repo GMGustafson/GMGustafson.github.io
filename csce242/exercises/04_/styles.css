@@ -1,0 +1,88 @@
+/*Structure*/
+body
+{ 
+    background-color: lightblue;
+}
+
+#content
+{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columns-all
+{ 
+    display:flex; 
+}
+
+img 
+{ 
+    max-width:100%; 
+}
+
+/*Header*/
+#main-image
+{ 
+    margin-right:10px; 
+}
+#main-header 
+{ 
+    position: relative;
+}
+
+/*Login*/
+#login-menu
+{ 
+    width:fit-content;
+    position: absolute;
+    top: 3%; 
+    right:3%; 
+
+}
+
+#login-menu ul
+{ 
+    display: none; 
+    padding-left:0;
+}
+
+#login-menu li 
+{ 
+    list-style-type: none;
+    padding:5px;
+}
+
+#login-menu a
+{ 
+    text-decoration:none;
+    color:blue; 
+}
+#login-menu a:hover
+{ 
+    text-decoration: underline;
+}
+
+
+
+/*Larger Resolutions*/
+@media only screen and (min-width:600px)
+{
+    #content 
+    {
+        width:70%; 
+        margin:auto; 
+    }
+    .columns
+    { 
+        display:flex; 
+    }
+    #settings 
+    { 
+        display:none; 
+    }
+    #login-menu ul
+    { 
+        display: flex; 
+    }
+
+}
