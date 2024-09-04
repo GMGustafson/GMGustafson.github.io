@@ -14,6 +14,22 @@
   text-decoration: none;  
   color: white;
 }
+#top-of-page ul
+{ 
+    padding-left:0; 
+}
+#top-of-page li
+{ 
+    list-style:none; 
+    display:inline;
+}
+#top-of-page a
+{
+    text-decoration: none; 
+    padding:5px;  
+    color: white; 
+    display: flex;
+}
 
 /*Content 2*/ 
 #content-2
@@ -24,6 +40,33 @@
 { 
     text-decoration: none;  
     color: white;
+}
+#main_nav ul
+{ 
+    padding-left:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#main_nav li
+{ 
+    list-style:none; 
+    display:inline;
+    float: left;
+}
+#main_nav li a:hover
+{
+    background-color: #570108; 
+}
+#main_nav a
+{
+    text-decoration: none; 
+    padding:5px;  
+    color: white; 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 /*Content 3*/
 
