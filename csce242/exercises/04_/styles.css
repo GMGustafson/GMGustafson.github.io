@@ -1,88 +1,73 @@
-/*Structure*/
-body
-{ 
-    background-color: lightblue;
-}
-
-#content
-{
-    background-color:white;
+/* Structure */
+body {
+    background-color: skyblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.columns-all
-{ 
-    display:flex; 
+#content {
+    background:white;
 }
 
-img 
-{ 
-    max-width:100%; 
+.columns-all {
+    display:flex;
 }
 
-/*Header*/
-#main-image
-{ 
-    margin-right:10px; 
+img {
+    max-width: 100%;
 }
-#main-header 
-{ 
-    position: relative;
+/* Header */
+#main-header {
+    position:relative;
 }
 
-/*Login*/
-#login-menu
-{ 
+#main-img {
+    margin-right:5px;
+}
+
+/* Login Menu */
+#login-menu {
     width:fit-content;
-    position: absolute;
-    top: 3%; 
-    right:3%; 
-
+    position:absolute;
+    top:3%;
+    right:3%;
 }
 
-#login-menu ul
-{ 
-    display: none; 
+#login-menu ul {
+    display:none;
     padding-left:0;
 }
 
-#login-menu li 
-{ 
+#login-menu li {
     list-style-type: none;
     padding:5px;
 }
 
-#login-menu a
-{ 
-    text-decoration:none;
-    color:blue; 
+#login-menu a {
+    text-decoration: none;
+    color:blueviolet;
 }
-#login-menu a:hover
-{ 
+
+#login-menu a:hover {
     text-decoration: underline;
 }
 
 
-
-/*Larger Resolutions*/
-@media only screen and (min-width:600px)
-{
-    #content 
-    {
-        width:70%; 
-        margin:auto; 
-    }
-    .columns
-    { 
-        display:flex; 
-    }
-    #settings 
-    { 
-        display:none; 
-    }
-    #login-menu ul
-    { 
-        display: flex; 
+/* Larger Resolutions */
+@media only screen and (min-width:600px) {
+    #content {
+        width:70%;
+        margin:auto;
     }
 
+    .columns {
+        display:flex;
+    }
+
+    #settings {
+        display:none;
+    }
+
+    #login-menu ul {
+        display:flex;
+    }
 }
