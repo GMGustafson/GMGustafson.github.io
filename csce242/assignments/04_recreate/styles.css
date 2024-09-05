@@ -20,7 +20,7 @@
 }
 #top-of-page li
 { 
-    list-style:none; 
+    list-style:none;
     display:inline;
 }
 #top-of-page a
@@ -69,7 +69,10 @@
     padding: 14px 16px;
 }
 /*Content 3*/
-
+#content-3 img
+{ 
+    width:100%;
+}
 
 /*Content 4*/ 
 #content-4
@@ -139,11 +142,28 @@
 #content-8 h1
 { 
     color: #73010A;
+    
 }
 #content-8 h2
 { 
     color:#73010A;
 }
+#content-8a
+{
+    display:inline-block;
+}
+#content-8b
+{
+    display:inline-block;
+}#content-8c
+{
+    display:inline-block;
+}
+#content-8d
+{
+    display:inline-block;
+}
+
 
 /*Content 9*/ 
 #content-9
@@ -196,4 +216,34 @@ img
   max-width: 300px;
 }
 
-
+/* apply to 600px or bigger */
+@media only screen and (min-width:600px){
+    #main-nav ul 
+    {   
+        display: flex; 
+    }
+    .columns
+    { 
+        display:flex; 
+    }
+    .one
+    { 
+        flex:1;
+    }
+    .two
+    { 
+        flex:2; 
+    }
+    .three
+    { 
+        flex:3; 
+    }
+    .four
+    { 
+        flex:4; 
+    }
+    #main_nav li{ 
+        flex:1;
+    }
+    
+}
