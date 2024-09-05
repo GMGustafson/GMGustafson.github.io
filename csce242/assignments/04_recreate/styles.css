@@ -135,9 +135,13 @@
 }
 
 /*Content 8*/ 
-#content-8
+#content-8a
 { 
     background-color: #FFFFFF;
+}
+#content-8b
+{ 
+    display:flex;
 }
 #content-8 h1
 { 
@@ -147,21 +151,6 @@
 #content-8 h2
 { 
     color:#73010A;
-}
-#content-8a
-{
-    display:inline-block;
-}
-#content-8b
-{
-    display:inline-block;
-}#content-8c
-{
-    display:inline-block;
-}
-#content-8d
-{
-    display:inline-block;
 }
 
 
