@@ -49,7 +49,6 @@
 { 
   max-height: 150px;
   max-width: 300px;
-  margin-top: 50px;
   
 }
 
@@ -93,7 +92,7 @@
 /*Content 3*/
 #content-3 img
 { 
-  max-width:100%;
+ position: center 6.25px;   
 }
 
 
@@ -190,6 +189,7 @@
 { 
     color:#73010A;
 }
+
 
 
 /*Content 9*/ 
