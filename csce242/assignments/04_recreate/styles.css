@@ -178,12 +178,19 @@
 #content-8a
 { 
     background-color: #FFFFFF;
+    margin-top: 10%;
 }
 
 #content-8 h1
 { 
     color: #73010A;
     
+}
+#content-8a h1 
+{ 
+    font-size: 50px;
+    color: #570108;
+    text-align: center;
 }
 #content-8 h2
 { 
@@ -200,6 +207,7 @@
 #content-9 h2
 { 
     color:#FFFFFF;
+    font-size: large;
 }
 #content-9 h4
 { 
@@ -237,6 +245,7 @@
     display:block;
     text-wrap: wrap;
 }
+
 #offices.divisions
 {
     display:block;
@@ -244,7 +253,7 @@
 }
 #tools
 {
-    display:block;
+    display:block;   
     text-wrap: wrap;
 }
 #footer-1 a:hover
@@ -310,10 +319,20 @@
     { 
         display:flex;
     }
-    #colleges.schoolss
-    { 
-        display: flex;
+    #colleges.schools1
+    {
+    display:flex;
     }
+    #colleges.schools2
+    {
+    display:flex;
+    }
+    #colleges.schools3
+    {   
+    display:flex;
+}   
+
+    
     
     
 }
