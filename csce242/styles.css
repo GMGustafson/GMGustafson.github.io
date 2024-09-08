@@ -32,6 +32,7 @@ body
   text-align: center;
 }
 
+
 #assignment-1
 {
   background: darkgray; 
@@ -69,7 +70,12 @@ body
   border:5px solid black;
 }
 
-#excersise-1
+#Project-pages
+{ 
+  text-align: center;
+}
+
+#Project-1
 { 
   background: darkgray; 
   padding: 10px; 
@@ -85,16 +91,7 @@ a
   color: black;
 }
 
-#excersise-2
-{ 
-  background: darkgray; 
-  padding: 10px; 
-  margin: 20px; 
-  width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
-}
-#excersise-3
+#Project-2
 { 
   background: darkgray; 
   padding: 10px; 
