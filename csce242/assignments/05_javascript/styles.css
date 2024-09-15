@@ -101,6 +101,11 @@ button {
     color: var(--third-color);
   }
 
+  #slider-pic
+  { 
+    position: relative;
+  }
+
 
 /* apply to 600px or bigger */
 @media only screen and (min-width:600px)
