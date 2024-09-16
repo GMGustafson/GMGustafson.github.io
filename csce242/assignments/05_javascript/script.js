@@ -1,17 +1,16 @@
 
-    /*slider*/ 
-        var slider = document.getElementById("myRange");
-        output.innerHTML = slider.value; 
+    // Slider
+document.getElementById("slider").value = 0; // Initial value of slider
 
-        slider.oninput = function() {
-        output.innerHTML = this.value;}
-
-        slider-pic == output.innerHTML; 
-
+document.getElementById("slider").oninput = () => {
+    console.log("Check"); // Check input function
+    val = document.getElementById("slider").value * 1.25;
+    document.getElementById("slide-box").style.left = val + "px";
+}
         
     /*counter*/ 
-    myButton.onclick = () => {
-        document.getElementById("myButton").innerHTML ;;
-        const element = document.getElementById("myButton");
-        element.innerHTML = innerHTML + 1;
+    let taps = 0; 
+    document.getElementById("myButton").onclick = () => {
+        taps +=1; 
+        document.getElementById("myButton").innerHTML = taps;
     }
