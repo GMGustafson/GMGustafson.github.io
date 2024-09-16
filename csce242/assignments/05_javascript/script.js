@@ -1,12 +1,13 @@
 
-    // Slider
-document.getElementById("slider").value = 0; 
-
-document.getElementById("slider").oninput = () => {
-    val = document.getElementById("slider").value * 1.25;
+    
+    /*Slider*/ 
+    document.getElementById("myslider").value = 0; 
+    document.getElementById("myslider").oninput = () => 
+    {
+    const val = document.getElementById("myslider").value * 1.25;
     document.getElementById("slider-pic").style.left = val + "px";
-}
-        
+    }
+
     /*counter*/ 
     let taps = 0; 
     document.getElementById("counter").onclick = () => 
