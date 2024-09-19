@@ -85,7 +85,7 @@ body
 
 
 
-#Project-pages
+#project-pages
 { 
   text-align: center;
 }
@@ -116,6 +116,15 @@ a
   border:5px solid black;
 }
 #Project-3
+{ 
+  background: lightgray; 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 30px;  
+  border:5px solid black;
+}
+#Project-4
 { 
   background: lightgray; 
   padding: 10px; 
@@ -164,6 +173,14 @@ img
         flex-wrap:wrap; 
     }
     #assignment-pages section
+    { 
+      flex:33%;
+    }
+    #project-pages
+    { 
+        flex-wrap:wrap; 
+    }
+    #project-pages section
     { 
       flex:33%;
     }
