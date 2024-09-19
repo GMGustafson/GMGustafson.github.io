@@ -110,6 +110,14 @@
     font-size: x-large;
 }
 
+/* gallery*/ 
+#photos-1
+{ 
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
 
 /*reviews*/
 #reviewer
