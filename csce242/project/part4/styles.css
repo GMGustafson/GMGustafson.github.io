@@ -12,20 +12,22 @@
     text-align:center;
     color: var(--third-color);
     font-size: 40px;
+    position: relative;
 }
 #image1
 { 
-    position: relative;
-    top: auto;
-    max-width: 300px;
-    max-height: 200px;
+    position: absolute;
+    max-width: 200px;
+    max-height: 100px;
+    top:0px; 
+    right: 3px;  
 }
 #image2
-{ 
-    position: relative;
-    left: 40%;
-    max-width:300px; 
-    max-height: 200px; 
+{ position: absolute;
+    max-width: 200px;
+    max-height: 100px;
+    top:0px; 
+    left: 3px; 
 }
 
 #main-nav ul
@@ -186,6 +188,15 @@
     { 
         display: flex;
     }
+    #image1
+    { 
+        display: flex;
+    }
+    #image
+    { 
+        display: flex;
+    }
+   
 }   
 
 
