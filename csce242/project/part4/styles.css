@@ -5,6 +5,8 @@
     --third-color:#851111;
     --fourth-color:rgb(81, 79, 79);
     --fifth-color: #f6eded; 
+    --sixth-color: #c9c9c9;
+    --seventh-color: #DEDEDE; 
 }
 
 #title
@@ -14,7 +16,7 @@
     font-size: 40px;
     position: relative;
 }
-#image1
+#logo1
 { 
     position: absolute;
     max-width: 200px;
@@ -22,12 +24,24 @@
     top:0px; 
     right: 3px;  
 }
-#image2
+#logo2
 { position: absolute;
     max-width: 200px;
     max-height: 100px;
     top:0px; 
     left: 3px; 
+}
+#home-pic 
+{
+    max-width: 1300px; 
+    max-height: 500px;
+    padding-left: 75px;
+}
+#home-pic2 
+{
+    max-width: 1300px; 
+    max-height: 500px;
+    padding-left: 75px;
 }
 
 #main-nav ul
@@ -71,25 +85,35 @@
 /*contact us*/
 #papa  
 {
-  background:var(--fifth-color);
+  background:var(--seventh-color);
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border-radius: 30px;  
   border:5px solid black; 
 }
+#papa-pic
+{ 
+    max-width: 300px;
+    max-height: 300px;
+}
 #mom      
 {
-  background: var(--fifth-color);
+  background: var(--seventh-color);
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border-radius: 30px;  
   border:5px solid black;
 }
+#mom-pic
+{ 
+    max-width: 300px;
+    max-height: 300px;
+}
 #nana  
 {
-  background: var(--fifth-color);
+  background: var(--seventh-color);
   padding: 10px; 
   margin: 20px; 
   width:70%; 
@@ -125,24 +149,29 @@
 }
 
 /* gallery*/ 
-#photos-1
+#gallery
 { 
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 300px;
+    padding: 30px; 
 }
 
-/* Contact Us */ 
+
+
+
+
+ 
 
 
 /*reviews*/
 #reviewer
 {
-  background: darkgray; 
+  background: var(--sixth-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border-radius: 30px;  
-  border:5px solid black;
+  border:5px solid var(--primary-color);
 }
 
 
@@ -196,6 +225,23 @@
     { 
         display: flex;
     }
+    #logo1
+    { 
+        display: flex;
+    }
+    #logo2
+    { 
+        display: flex;
+    }
+    #home-pic 
+    { 
+        display:flex; 
+    }
+    #home-pic2 
+    { 
+        display:flex; 
+    }
+
    
 }   
 
