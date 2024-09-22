@@ -16,20 +16,29 @@
     font-size: 40px;
     position: relative;
 }
+#header
+{ 
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
 #logo1
 { 
-    position: absolute;
     max-width: 200px;
     max-height: 100px;
     top:0px; 
     right: 3px;  
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 #logo2
-{ position: absolute;
+{ 
     max-width: 200px;
     max-height: 100px;
     top:0px; 
-    left: 3px; 
+    left: 3px;
+    padding-right: 20px; 
+    padding-left: 20px; 
 }
 #home-pic 
 {
@@ -151,6 +160,7 @@
     max-width: 200px;
     max-height: 300px;
     padding: 30px; 
+    justify-content: center;
 }
 
 
@@ -222,14 +232,6 @@
     { 
         display: flex;
     }
-    #logo1
-    { 
-        display: flex;
-    }
-    #logo2
-    { 
-        display: flex;
-    }
     #home-pic 
     { 
         display:flex; 
@@ -241,6 +243,10 @@
     #main-nav .columns
 { 
     display:flex; 
+}
+#header
+{ 
+    display: flex; 
 }
    
 }   
