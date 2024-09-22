@@ -26,12 +26,12 @@ html
 }
 
 /* Navigation*/
-#nav ul
+#nav-items ul
 { 
     padding-left:0;
     align-items: center;
 }
-#nav li
+#nav-items li
 { 
     list-style:none; 
     padding: 5px;
@@ -39,13 +39,71 @@ html
     display: inline; 
     align-items: center;
 }
-#nav a
+#nav-items a
 {
     text-decoration: none; 
     color: var(--third-color); 
     align-items: center;
 }
-#nav a::after 
+#nav-items a::after 
 { 
     content: "|";
 }
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+
+  /*color slider*/ 
+  #exercise-1
+  {
+    background: var(--sixth-color); 
+    padding: 10px; 
+    margin: 20px; 
+    width:70%; 
+    border-radius: 30px;  
+    border:5px solid var(--primary-color);
+  }
+  
+
+  /* picture*/ 
+#exercise-2
+  {
+    background: var(--sixth-color); 
+    padding: 10px; 
+    margin: 20px; 
+    width:70%; 
+    border-radius: 30px;  
+    border:5px solid var(--primary-color);
+  }
+  
+
+
+
+
+
+/* Visibility */
+.hidden {
+    display:none;
+  }
+  
+  .hidden-small {
+    display:none;
+  }
+
+
+@media only screen and (min-width: 600px) {
+
+    #toggle-nav {
+      display:none;
+    }
+  
+    .hidden-small {
+      display:flex;
+    }
+
+
+
+make a box-color
