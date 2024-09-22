@@ -68,10 +68,7 @@
     font-weight:bold; 
 }
 
-#main-nav .columns
-{ 
-    display:flex; 
-}
+
 #footer
 {
     text-align: center;
@@ -241,7 +238,10 @@
     { 
         display:flex; 
     }
-
+    #main-nav .columns
+{ 
+    display:flex; 
+}
    
 }   
 
