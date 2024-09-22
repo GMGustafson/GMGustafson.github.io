@@ -5,6 +5,7 @@
     --background-color:#F1sF2E9;
     --text-color: white; 
     --slider-color:lightgray; 
+    --box-color:color; 
 }
 
 html
@@ -104,6 +105,5 @@ html
       display:flex;
     }
 
+}
 
-
-make a box-color
