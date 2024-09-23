@@ -248,6 +248,16 @@
 { 
     display: flex; 
 }
+#home-pic 
+{
+    max-width:100%;
+    padding-left: 10px;
+}
+#home-pic2 
+{
+    max-width: 100%; 
+    padding-left: 10px;
+}
    
 }   
 
