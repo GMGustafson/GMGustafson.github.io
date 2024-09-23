@@ -1,13 +1,25 @@
 
 
-document.querySelector("#toggle-nav").onclick = () => {
+document.getElementById("toggle-nav").onclick = () => {
     document.getElementById("nav-items").classList.toggle("hidden-small");
 };
 
+document.getElementById("exercise-1").classList.toggle("hidden");
+document.getElementById("exercise-2").classList.toggle("hidden");
+
+document.getElementById("exercise1-link").onclick = () => 
+{ 
+    document.getElementById("exercise-2").classList.toggle("hidden");
+}
+document.getElementById("exercise2-link").onclick = () => 
+{ 
+    document.getElementById("exercise-1").classList.toggle("hidden");
+}
 
 
 
-/* Color SLider */
+
+/* Color Slider */
 document.getElementById("myslider").oninput= () => 
 {
     let color = document.getElementById("myslider").value; 

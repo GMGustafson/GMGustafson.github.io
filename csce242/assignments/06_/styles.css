@@ -42,12 +42,13 @@ html
 #nav-items a
 {
     text-decoration: none; 
-    color: var(--third-color); 
+    color: var(--primary-color);
+    font-weight: bold;
     align-items: center;
 }
-#nav-items a::after 
+#exercise1-link a::after 
 { 
-    content: "|";
+    content: "  | ";
 }
 #toggle-nav div {
     width:25px;
