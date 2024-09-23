@@ -2,10 +2,9 @@
     --primary-color: #54aeb8;
     --secondary-color: #f2f2f1; 
     --third-color:#eeaeae;
-    --background-color:#F1sF2E9;
+    --background-color: #ccd3d3;
     --text-color: white; 
     --slider-color:lightgray; 
-    --box-color:color; 
 }
 
 html
@@ -67,7 +66,14 @@ html
     border-radius: 30px;  
     border:5px solid var(--primary-color);
   }
-  
+  #exercise-1 h2
+  { 
+    color:var(--primary-color); 
+  }
+  #message
+  { 
+    color:var(--secondary-color); 
+  }
 
   /* picture*/ 
 #exercise-2
