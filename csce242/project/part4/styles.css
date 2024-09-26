@@ -120,6 +120,7 @@
   background: var(--seventh-color);
   padding: 10px; 
   margin: 20px; 
+  padding-top: 30px; 
   width:70%; 
   border:5px solid black;
   text-align: center;
@@ -136,6 +137,7 @@
   background: var(--seventh-color);
   padding: 10px; 
   margin: 20px; 
+  padding-top: 30px; 
   width:70%;
   border:5px solid black;
   text-align: center;
@@ -198,20 +200,8 @@ gallery-content
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
   border:5px solid var(--primary-color);
 }
-
-#reviewer-1
-{
-  background: var(--primary-color); 
-  padding: 10px; 
-  margin: 20px; 
-  width:70%; 
-  border:5px solid var(--third-color);
-  color: white;
-}
-
 /* apply to 600px or bigger */
 @media only screen and (min-width:600px){
     #main-nav li
