@@ -2,33 +2,30 @@
 
 
   let pictures = [];
-  toyPrices["images/birthday.jpg"] = "birthday";
-  toyPrices["images/clown.jpg"] = "clown";
-  toyPrices["images/rain.jpg"] = "rain";
-  toyPrices["images/read.jpg"] = "read";
-  toyPrices["images/shovel.jpg"] = "shovel";
-  toyPrices["images/work.jpg"] =  "work";
+  pictures["images/birthday.jpg"] = "Birthday - Happy Birthday!";
+  pictures["images/clown.jpg"] = "Clown - Did I scare you? ";
+  pictures["images/rain.jpg"] = "Rain - I hope you have your umbrella";
+  pictures["images/read.jpg"] = "Read - Whats your favorite book?";
+  pictures["images/shovel.jpg"] = "Shovel - Gardening time :) ";
+  pictures["images/work.jpg"] =  "Work - Love doing work";
  
 
 /* Associative array*/
-const table = document.querySelector("pictures-list");
+const table = document.querySelector("#pictures-list");
 
 for(let name in pictures){
   let tr = document.createElement("tr");
-  table.append(tr);
 
   const td1 = document.createElement("td");
   let img = document.createElement("img"); 
-  img.src = src; 
+  img.src = name; 
   td1.appendChild(img); 
   tr.append(td1);
 
-  const td2 = document.createElement("td");
-  td2.innerHTML = pictures[src];
-  tr.append(td2);
   
   img.onclick = () => {
-    document.getElementById("image-name").innerHTML = pictures[src]; 
+    document.getElementById("image-name").innerHTML = pictures[name]; 
 }
+table.appendChild(tr);
 
 }
