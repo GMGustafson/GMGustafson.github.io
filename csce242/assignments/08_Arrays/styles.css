@@ -1,37 +1,9 @@
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
 
-#birthday
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
-}
-#clown
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
-}
-#rain
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
-}
-#read
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
-}
-#shovel
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
-}
-#work
-{ 
-    width: 200px;
-    height: 300px; 
-    border: 2px solid navy; 
+img {
+    width: 100%;
 }

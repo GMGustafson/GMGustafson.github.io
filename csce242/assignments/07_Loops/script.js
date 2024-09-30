@@ -7,4 +7,14 @@ document.getElementById("btn").onclick = () =>
    const Stars = document.querySelector("star"); 
    let box = document.getElementById("box");
 
+
+   if (numofStars>0) 
+   {
+     console.log(numofStars); 
+   }
+   else 
+   { 
+      console.log("not valid"); 
+   }
+   
 }
