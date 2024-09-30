@@ -10,7 +10,8 @@ document.getElementById("btn").onclick = () =>
 
    if (numofStars>0) 
    {
-     box.append(Stars);
+      box.append(Stars);
+     star.classList.add("star");
    }
    else 
    { 
