@@ -1,7 +1,7 @@
 
 /* css taken from https://css-shape.com/star/*/
 .star {
-    width: 300px;  
+    width: 30px;  
     aspect-ratio: 1;
     background: #F8CA00;
     clip-path: polygon(50% 0,
