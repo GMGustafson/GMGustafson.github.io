@@ -4,13 +4,13 @@ const randNum = (val) => Math.ceil(Math.random() * val);
 document.getElementById("btn").onclick = () => 
 {
    const numofStars = parseInt(document.getElementById("txt-star").value);
-   const Stars = document.querySelector("star"); 
+   const Stars = document.createElement("div"); 
    let box = document.getElementById("box");
 
 
    if (numofStars>0) 
    {
-     console.log(numofStars); 
+     box.append(Stars);
    }
    else 
    { 
