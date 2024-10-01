@@ -1,20 +1,27 @@
 
+html 
+{ 
+    background-color: blanchedalmond;
+}
+#heading
+{ 
+    text-align: center;
+}
 
 td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    background-color: blue;
+    align-items: center;
 }
+
 
 img {
     width: 100px;
     height:100px; 
 }
-#pictures-list
-{ 
-    display:table-row;
-    text-align: center;
-}
+
 
 /* apply to 600px or bigger */
 @media only screen and (min-width:600px)
