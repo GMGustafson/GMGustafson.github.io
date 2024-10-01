@@ -1,4 +1,31 @@
 
+
+html 
+{ 
+    background-color: blanchedalmond;
+}
+#heading
+{ 
+    text-align: center;
+}
+#content
+{ 
+  text-align: center; 
+  background-color: lightgray;
+}
+ 
+#box
+{ 
+    width: 300px;
+    height: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    background-color:  black;
+    position: relative; 
+    justify-content: center;
+}
+
 /* css taken from https://css-shape.com/star/*/
 .star {
     width: 30px;  
@@ -15,20 +42,4 @@
 
   }
 
-  
-  #box
-  { 
-      width: 300px;
-      height: 300px;
-      border: 15px solid black;
-      padding: 50px;
-      margin: 20px;
-      background-color:  black;
-      position: relative; 
-      align-items: center;
-  }
-
-  #innerHTML 
-  { 
-    color:white; 
-  }
+ 

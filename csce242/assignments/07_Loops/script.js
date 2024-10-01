@@ -3,22 +3,36 @@ const randNum = (val) => Math.ceil(Math.random() * val);
 
 document.getElementById("btn").onclick = () => 
 {
-   const numofStars = parseInt(document.getElementById("txt-star").value);
-   const Stars = document.createElement("div"); 
+   const number = parseInt(document.getElementById("txt-star").value);
    let box = document.getElementById("box");
+   
+   box.innerHTML = '';
 
-
-   if (numofStars>0) 
+   if (number>0) 
    {
-      for (let i = 0; i < numofStars; i++) 
+      for (let i = 0; i < number; i++) 
       {
-         box.append(Stars);
-         Stars.classList.add("star");
+         const star = document.createElement("div"); 
+         star.classList.add("star");
+         
+         const x = randNum(box.clientWidth) - 20; 
+         const y = randNum(box.clientHeight) - 20; 
+         star.style.left = `${x}px`;
+         star.style.top = `${y}px`;
+
+         box.append(star);
+         
+         star.onclick = () =>
+         { 
+            console.log("you clicked a star");
+         } 
       }
    }
    else 
-   { 
+   {  
       console.log("not valid"); 
    }
-   
 }
+   
+
+
