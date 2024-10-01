@@ -15,11 +15,28 @@ td {
     background-color: blue;
     align-items: center;
 }
+#image-name
+{
+    text-align: center;
+    background-color: aqua;
+}
 
+#pictures-list
+{ 
+    justify-content: center;
+    flex-wrap:  wrap;
+}
 
 img {
-    width: 100px;
-    height:100px; 
+    width: 150px;
+    height:150px; 
+    flex:33%;
+}
+
+#copy
+{ 
+    text-align: center;
+    background-color: aqua;
 }
 
 
@@ -38,4 +55,9 @@ img {
     { 
         flex:2; 
     }
+    #pictures-list
+    { 
+        display: flex;
+    }
+
 }

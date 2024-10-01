@@ -22,14 +22,18 @@ document.getElementById("btn").onclick = () =>
 
          box.append(star);
          
+         const txt = document.getElementById("txt-box");
          star.onclick = () =>
          { 
-            console.log("you clicked a star");
+            txt.innerHTML = "You clicked star number  " + (i+1) +  " !!" ; 
          } 
       }
    }
+
    else 
    {  
+      const txt = document.getElementById("txt-box");
+      txt.innerHTML = "You entered an invalid email. It has to be greater than 0." ;
       console.log("not valid"); 
    }
 }

@@ -11,7 +11,7 @@
  
 
 /* Associative array*/
-const table = document.querySelector("#pictures-list");
+const container = document.querySelector("#pictures-list");
 
 for(let name in pictures){
   let tr = document.createElement("tr");
@@ -26,6 +26,6 @@ for(let name in pictures){
   img.onclick = () => {
     document.getElementById("image-name").innerHTML = pictures[name]; 
 }
-table.appendChild(tr);
+container.appendChild(tr);
 
 }

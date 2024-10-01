@@ -12,6 +12,21 @@ html
 { 
   text-align: center; 
   background-color: lightgray;
+  align-items: center;
+}
+#star-box
+{ 
+  text-align: center;
+
+}
+#txt-box
+{
+  background-color: aqua;
+  text-align: center;
+}
+#txt
+{ 
+  text-align: center;
 }
  
 #box
@@ -24,6 +39,7 @@ html
     background-color:  black;
     position: relative; 
     justify-content: center;
+    align-items: center;
 }
 
 /* css taken from https://css-shape.com/star/*/
@@ -42,4 +58,17 @@ html
 
   }
 
+@media only screen and (min-width:600px)
+{
+ 
+#txt-box
+{
+  display: flex;
+}
+ 
+#box
+{ 
+  display: flex;
+}
+}
  
