@@ -8,12 +8,15 @@ html
     text-align: center;
 }
 
-td {
+.pic-div {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
-    background-color: blue;
+    background-color: #0000ff;
     align-items: center;
+    flex-wrap:  wrap;
+    flex:33%; 
+    
 }
 #image-name
 {
@@ -23,14 +26,16 @@ td {
 
 #pictures-list
 { 
+    display: block;
+    flex: 33%;
     justify-content: center;
-    flex-wrap:  wrap;
 }
 
 img {
     width: 150px;
-    height:150px; 
-    flex:33%;
+    height:150px;
+    padding: 10px; 
+
 }
 
 #copy
@@ -55,9 +60,8 @@ img {
     { 
         flex:2; 
     }
-    #pictures-list
+    #picture-list 
     { 
         display: flex;
     }
-
 }
