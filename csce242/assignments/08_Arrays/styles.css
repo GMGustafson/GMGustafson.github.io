@@ -1,27 +1,32 @@
 
 html 
 { 
-    background-color: blanchedalmond;
+    background-color: lightgray;
 }
 #heading
 { 
     text-align: center;
+    color: navy;
+    
 }
 
 .pic-div {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
-    background-color: #0000ff;
+    background-color: navy;
     align-items: center;
-    flex-wrap:  wrap;
-    flex:33%; 
+    width:300px; 
     
 }
 #image-name
 {
     text-align: center;
-    background-color: aqua;
+    background-color:  rgb(107, 107, 147);;
+    color: white;
+    font-size: 24px;
+    margin-left:150px; 
+    margin-right:150px; 
 }
 
 #pictures-list
@@ -41,7 +46,11 @@ img {
 #copy
 { 
     text-align: center;
-    background-color: aqua;
+    background-color:  rgb(107, 107, 147);;
+    color: white;
+    font-size: 18px;
+    margin-left:150px; 
+    margin-right:150px; 
 }
 
 
@@ -60,8 +69,9 @@ img {
     { 
         flex:2; 
     }
-    #picture-list 
+    #pictures-list 
     { 
         display: flex;
+        flex-wrap: wrap;
     }
 }
