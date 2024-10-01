@@ -2,17 +2,20 @@
 
 html 
 { 
-    background-color: blanchedalmond;
+    background-color: navy;
 }
 #heading
 { 
     text-align: center;
+    color: white;
 }
 #content
 { 
   text-align: center; 
   background-color: lightgray;
   align-items: center;
+  margin-left:200px; 
+  margin-right:200px;
 }
 #star-box
 { 
@@ -21,8 +24,12 @@ html
 }
 #txt-box
 {
-  background-color: aqua;
+  background-color: rgb(107, 107, 147);
   text-align: center;
+  margin-left:200px; 
+  margin-right:200px; 
+  color: white;
+  font-size: 24px;
 }
 #txt
 { 
@@ -33,13 +40,14 @@ html
 { 
     width: 300px;
     height: 300px;
-    border: 15px solid black;
+    border: 15px solid rgb(255, 255, 255);
     padding: 50px;
-    margin: 20px;
-    background-color:  black;
+    margin: 20px auto;
+    background-color:  rgb(255, 255, 255);
     position: relative; 
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 /* css taken from https://css-shape.com/star/*/
@@ -61,10 +69,6 @@ html
 @media only screen and (min-width:600px)
 {
  
-#txt-box
-{
-  display: flex;
-}
  
 #box
 { 

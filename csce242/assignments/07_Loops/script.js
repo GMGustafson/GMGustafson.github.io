@@ -33,7 +33,7 @@ document.getElementById("btn").onclick = () =>
    else 
    {  
       const txt = document.getElementById("txt-box");
-      txt.innerHTML = "You entered an invalid email. It has to be greater than 0." ;
+      txt.innerHTML = "You entered an invalid number. It has to be greater than 0." ;
       console.log("not valid"); 
    }
 }
