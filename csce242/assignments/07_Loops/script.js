@@ -23,6 +23,8 @@ document.getElementById("btn").onclick = () =>
          box.append(star);
          
          const txt = document.getElementById("txt-box");
+         txt.innerHTML = "Here are your " + number +  " of stars !!" ;
+          
          star.onclick = () =>
          { 
             txt.innerHTML = "You clicked star number  " + (i+1) +  " !!" ; 
