@@ -1,0 +1,100 @@
+#heading 
+{ 
+    text-align: center;
+}
+
+#malti-poo
+{
+    background-color: lightseagreen;
+    color: white; 
+    font-size: 20px;
+    margin: 5px; 
+    text-align: center;
+}
+
+#img1
+{ 
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3px;
+    margin: 5px; 
+    background-color: lightseagreen;
+}
+
+#golden-retriever
+{
+    background-color: lightseagreen;
+    color: white; 
+    font-size: 20px;
+    margin: 5px; 
+    text-align: center;
+}
+#img2
+{ 
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3px;
+    margin: 5px; 
+    background-color: lightseagreen;
+}
+
+
+#pug
+{
+    background-color: lightseagreen;
+    color: white; 
+    font-size: 20px;
+    margin: 5px; 
+    text-align: center;
+}
+#img3
+{ 
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3px;
+    margin: 5px; 
+    background-color: lightseagreen;
+}
+
+#labrador-retriver
+{
+    background-color: lightseagreen;
+    color: white; 
+    font-size: 20px;
+    margin: 5px; 
+    text-align: center;
+}
+#img4
+{ 
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3px;
+    margin: 5px; 
+    background-color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
+/* apply to 600px or bigger */
+@media only screen and (min-width:600px){
+    #main-nav ul 
+    {   
+        display: flex; 
+    }
+    .columns
+    { 
+        display:flex; 
+    }
+    
+    .one
+    { 
+        flex:1;
+    }
+}
