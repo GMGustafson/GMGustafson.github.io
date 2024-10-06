@@ -27,7 +27,7 @@ class Dog {
             dialog.style.display = "block";
             const dialogContent = document.getElementById("dialog-content");
             dialogContent.innerHTML = ""; // Clear previous content
-            //dialogContent.appendChild(this.expandedSection());
+            dialogContent.appendChild(this.expandedSection);
         };
 
         return section; 
