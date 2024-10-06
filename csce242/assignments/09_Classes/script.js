@@ -22,13 +22,12 @@ class Dog {
         section.append(h3);
         section.append(pic); 
         
-
         section.onclick = () => {
             const dialog = document.getElementById("dialog");
             dialog.style.display = "block";
             const dialogContent = document.getElementById("dialog-content");
             dialogContent.innerHTML = ""; // Clear previous content
-            dialogContent.appendChild(this.expandedSection());
+            //dialogContent.appendChild(this.expandedSection());
         };
 
         return section; 
@@ -36,33 +35,39 @@ class Dog {
     
 
     get expandedSection() {
-        const section = document.createElement("div");
+        const expandedSection = document.createElement("div");
         
-        // Create my columns
+        // Create the columns container
         const columnsDiv = document.createElement("div");
         columnsDiv.classList.add("columns");
-        section.append(columnsDiv);
-        const firstColumn = document.createElement("div");
-        columnsDiv.append(firstColumn);
-        const secondColumn = document.createElement("div");
-        columnsDiv.append(secondColumn);
-
-        // Create image and add to first column
-        firstColumn.append(this.picture(this.pic));
-
-        // Create info data and add to second column
-        secondColumn.classList.add("hidden");
-        secondColumn.append(this.paragraph("Breed", this.name));
-        secondColumn.append(this.paragraph("Weight", this.weight));
-        secondColumn.append(this.paragraph("Lifespan", this.lifespan));
-        secondColumn.append(this.paragraph("Food", this.food));
-        secondColumn.append(this.paragraph("Facts", this.facts));
-
-        // Append the columns to the section
-        section.append(columnsDiv);
         
-        return section; // Return the expanded section
+        // Create columns
+        const firstColumn = document.createElement("div");
+        const secondColumn = document.createElement("div");
+        
+        // Create and add image to the first column
+        const img = document.createElement("img");
+        img.src = "images/" + this.pic;
+        img.alt = this.name;
+        firstColumn.appendChild(img);
+        
+        // Create info data and add to the second column
+        secondColumn.appendChild(this.paragraph("Breed", this.name));
+        secondColumn.appendChild(this.paragraph("Weight", this.weight));
+        secondColumn.appendChild(this.paragraph("Lifespan", this.lifespan));
+        secondColumn.appendChild(this.paragraph("Food", this.food));
+        secondColumn.appendChild(this.paragraph("Facts", this.facts));
+        
+        // Append columns to the container
+        columnsDiv.appendChild(firstColumn);
+        columnsDiv.appendChild(secondColumn);
+        
+        // Append the container to the expanded section
+        expandedSection.appendChild(columnsDiv);
+        
+        return expandedSection;
     }
+    
 
     
 

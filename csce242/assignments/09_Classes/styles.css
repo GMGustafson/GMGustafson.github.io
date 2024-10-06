@@ -148,17 +148,9 @@ img
     text-align: center;
   }
   
-  .arrow {
-    text-decoration: none;
-    padding-left: 10px;
-    color: white;
-  }
-  
-  #hamburger div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+  #heading 
+  { 
+    text-align: center;
   }
   
   .hide-small {
