@@ -8,16 +8,21 @@ class Dog {
         this.pic = pic; 
     }
 
-    get item() {
+    get section() {
         const section = document.createElement("section");
-        section.classList.add("dog");
-
-        // Create a header
-        const h3 = document.createElement("h3");
+        const h3 = document.createElement("h3"); 
         h3.innerHTML = this.name;
-        section.append(h3);
 
-        // When section is clicked, open dialog
+
+        const pic = document.createElement("img");
+        pic.src = "images/" + this.pic; 
+        pic.alt = this.name; 
+        
+        
+        section.append(h3);
+        section.append(pic); 
+        
+
         section.onclick = () => {
             const dialog = document.getElementById("dialog");
             dialog.style.display = "block";
@@ -26,10 +31,11 @@ class Dog {
             dialogContent.appendChild(this.expandedSection());
         };
 
-        return section; // Return the created section
+        return section; 
     }
+    
 
-    expandedSection() {
+    get expandedSection() {
         const section = document.createElement("div");
         
         // Create my columns
@@ -58,12 +64,7 @@ class Dog {
         return section; // Return the expanded section
     }
 
-    picture(info) {
-        const pic = document.createElement("img");
-        pic.src = "images/" + info; // Ensure this path is correct
-        pic.alt = this.name; // Add alt text for accessibility
-        return pic;
-    }
+    
 
     paragraph(title, info) {
         const p = document.createElement("p");
@@ -81,14 +82,10 @@ dogs.push(new Dog("Labrador Retriever", "55-80lbs", "10-14 years", "nibble", "a 
 
 // Append dog items to the list
 dogs.forEach((dog) => {
-    document.getElementById("dog-list").append(dog.item);
+    document.getElementById("dog-list").append(dog.section);
 });
 
-// Close dialog functionality
-/*document.getElementById("dialog-x").onclick = () => {
-    const dialog = document.getElementById("dialog");
-    dialog.style.display = "none"; // Close dialog when 'X' is clicked
-};*/
+
 
 // Close dialog when clicking outside of the dialog content
 window.onclick = (event) => {
