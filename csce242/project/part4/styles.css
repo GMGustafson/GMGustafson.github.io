@@ -111,7 +111,8 @@
 /*contact us*/
 #papa  
 {
-  background:var(--seventh-color);
+    background: var(--sixth-color); 
+
   padding: 10px;
   padding-top: 30px;  
   margin: 20px; 
@@ -128,7 +129,7 @@
 }
 #mom      
 {
-  background: var(--seventh-color);
+    background: var(--sixth-color); 
   padding: 10px; 
   margin: 20px; 
   padding-top: 30px; 
@@ -145,7 +146,7 @@
 }
 #nana  
 {
-  background: var(--seventh-color);
+background: var(--sixth-color); 
   padding: 10px; 
   margin: 20px; 
   padding-top: 30px; 
@@ -204,7 +205,31 @@
  justify-content: center;
 
 }
-
+/*products*/
+#pricing-delivery
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+#Trucking
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+#Pallets
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
 
 
 
