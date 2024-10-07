@@ -83,10 +83,10 @@ const dogs = [];
 dogs.push(new Dog("Malti-poo", "5-20lbs", "14-16yrs", "kibble", "low-maintenance and hypoallergenic dog", "maltipoo.jpg")); 
 dogs.push(new Dog("Golden Retriever", "60-75lbs", "10-13yrs", "high-protein meals", "friendly personality", "golden.jpg")); 
 dogs.push(new Dog("Pug", "13-18lbs", "13-15 years", "kibble", "comical temperament and loyal nature", "pug.jpg")); 
-dogs.push(new Dog("Labrador Retriever", "55-80lbs", "10-14 years", "nibble", "a symbol of kinship in America", "lab.jpg")); 
+dogs.push(new Dog("Labrador Retriever", "55-80lbs", "10-14 years", "kibble", "a symbol of kinship in America", "lab.jpg")); 
 
 // Append dog items to the list
-dogs.forEach((dog) => {
+dogs.forEach((dog) => { 
     document.getElementById("dog-list").append(dog.section);
 });
 

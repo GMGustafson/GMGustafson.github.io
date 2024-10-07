@@ -2,13 +2,10 @@
 
 :root {
     --primary: darkblue;
-    --secondary: darkgreen;
-    --tertiary: orange;
     --back: azure;
     --headback: bisque;
     --mainback: cadetblue;
     --footback: honeydew;
-    --num: 15%;
   }
   
   body {
@@ -31,17 +28,7 @@
     padding: 5px;
     margin: auto;
   }
-  
-  .info {
-    border: 2px solid blueviolet;
-    background: lightblue;
-  }
-  
-  .info header {
-    background-color: blueviolet;
-    margin: 0 auto;
-  }
-  
+
   .w3-modal {
     display: none;
     position: fixed;
@@ -65,19 +52,6 @@
 }
 
   
-  /* gallery */
-  
-  .items section {
-    margin: 1%;
-    padding: 1%;
-    background-color: bisque;
-    text-align: center;
-  }
-  
-  .items section.highlighted {
-    opacity: 100%;
-  }
-  
   /* Dogs */
   
   .dog {
@@ -93,45 +67,6 @@ img
     max-height:200px; 
   }
   
-  /* Tables */
-  
-  #children-table {
-    border-collapse: collapse;
-  }
-  
-  #children-table th,
-  #children-table td {
-    border: 1px solid darkgray;
-    padding: 5px;
-  }
-  
-  #children-table th {
-    background-color: cornflowerblue;
-    color: white;
-  }
-  
-  #children-table tr:hover {
-    background-color: lightpink;
-  }
-  
-  #child-details {
-    margin: 5px;
-    border: 1px solid darkblue;
-    background: cornflowerblue;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  
-  #child-details h3 {
-    color: white;
-    text-align: center;
-  }
-  
-  #child-details img {
-    max-width: 30%;
-    display: block;
-    margin: auto;
-  }
   
   /* Typography */
 
@@ -147,7 +82,7 @@ img
   h1 {
     text-align: center;
   }
-  
+
   #heading 
   { 
     text-align: center;
@@ -180,22 +115,10 @@ img
       gap: 1%;
   }
   
-    #hamburger {
-      display: none;
-    }
     .hide-small {
       display: block;
     }
-    #main-nav a:hover {
-      border-bottom: 1px solid magenta;
-    }
-    #main-nav li {
-      background: none;
-      border: none;
-    }
-    #main-nav li:hover {
-      background: none;
-    }
+
     .items section {
       flex: 20%;
       flex-grow: 0;
