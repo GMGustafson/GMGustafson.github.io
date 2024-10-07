@@ -108,6 +108,15 @@ body
   border-radius: 30px;  
   border:5px solid black;
 }
+#assignment-9
+{
+  background: lightgray; 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 30px;  
+  border:5px solid black;
+}
 #photo
 { 
   border: 5px solid black;
