@@ -1,0 +1,350 @@
+/*Home Page*/
+:root {
+    --primary-color: #000000;
+    --secondary-color: #bfbfbf; 
+    --third-color:#7D1A1D;
+    --fourth-color:rgb(81, 79, 79);
+    --fifth-color: #f6eded; 
+    --sixth-color: #c9c9c9;
+    --seventh-color: #DEDEDE; 
+}
+
+html 
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title
+{ 
+    text-align:center;
+    color: var(--third-color);
+    font-size: 40px;
+    position: relative;
+}
+
+#content {
+    width:100%;
+}
+#header
+{ 
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#home-pic
+{
+    max-width: 100%;
+    justify-content: center;
+}
+#main-nav ul
+{ 
+    padding-left:0;
+    display: none;
+}
+#main-nav li
+{ 
+    list-style:none; 
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+#main-nav li:hover {
+    background-color:var(--third-color);
+}
+#main-nav a
+{
+    text-decoration: none; 
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+    display: block;
+  }
+  #logo1
+{ 
+    max-width: 200px;
+    max-height: 100px;
+    top:0px; 
+    right: 3px;  
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+#logo2
+{ 
+    max-width: 200px;
+    max-height: 100px;
+    top:0px; 
+    left: 3px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+
+}
+
+
+#heading
+{ 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#footer
+{
+    text-align: center;
+    border-top: 2px solid black;
+    background-color: var(--primary-color);
+    color: var(--seventh-color);
+    
+}
+
+/* about us*/
+#about-us11
+{
+    background-color:var(--seventh-color);
+    margin: 5px;
+    padding:5px; 
+    font-size: 20px;
+    border: 2px solid black; 
+}
+#about-us22
+{
+    background-color:var(--seventh-color);
+    margin: 5px;
+    padding:5px; 
+    font-size: 20px;
+    border: 2px solid black; 
+}
+
+/*contact us*/
+#papa  
+{
+    background: var(--sixth-color); 
+
+  padding: 10px;
+  padding-top: 30px;  
+  margin: 20px; 
+  width:70%;  
+  border:5px solid black; 
+  text-align: center;
+}
+#papa-pic
+{ 
+    max-width: 300px;
+    max-height: 300px;
+    display:block;
+    margin:auto;
+}
+#mom      
+{
+    background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  padding-top: 30px; 
+  width:70%; 
+  border:5px solid black;
+  text-align: center;
+}
+#mom-pic
+{ 
+    max-width: 300px;
+    max-height: 300px;
+    display:block;
+    margin:auto;
+}
+#nana  
+{
+background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  padding-top: 30px; 
+  width:70%;
+  border:5px solid black;
+  text-align: center;
+}
+#nana-pic
+{ 
+    max-width: 300px;
+    max-height: 300px;
+    display:block;
+    margin:auto;
+}
+#link
+{ 
+    text-decoration: none; 
+    color: var(--seventh-color); 
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    background-color: var(--third-color);
+}
+
+#order
+{ 
+    text-decoration: none; 
+    color: black; 
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
+#name 
+{ 
+    font-weight: bold;
+    color: var(--third-color);
+    font-size: 20px;
+}
+
+/* gallery*/ 
+#gallery
+{ 
+    max-width: 200px;
+    max-height: 300px;
+    border:5px solid black;
+    
+}
+#product-gallery
+{ 
+    max-width: 200px;
+    max-height: 300px;
+}
+#aboutus-gallery
+{ 
+    max-width: 200px; 
+    max-height: 270px;
+    border:3px solid black;
+}
+#gallery-content {
+    justify-content: center; 
+    margin: auto; 
+    margin-left: 30px; 
+    margin-right:30px; 
+}
+#gallery, #product-gallery, #aboutus-gallery {
+    width: 200px;
+    margin: 1%; 
+}
+
+
+
+/*products*/
+#pricing-delivery
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+#Trucking
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+#Pallets
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+
+
+
+
+ 
+
+
+/*reviews*/
+#reviewer
+{
+  background: var(--sixth-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border:5px solid var(--primary-color);
+}
+
+#reviewerimg
+{
+    max-width: 200px;
+    max-height: 100px;
+}
+/* apply to 600px or bigger */
+@media only screen and (min-width:600px){
+    #main-nav li
+    {
+        flex:1;
+    }
+    #main-nav ul
+    {
+        display: flex;
+    }
+    .columns
+    { 
+        display:flex; 
+    }
+    
+    .one
+    { 
+        flex:1;
+    }
+    .two
+    { 
+        flex:2; 
+    }
+    .three
+    { 
+        flex:3; 
+    }
+    .four
+    { 
+        flex:4; 
+    }
+
+    .five {
+        flex:5;
+    }
+    #main_nav li{ 
+        flex:1;
+    }
+    #content-8b
+    { 
+        display:flex;
+    }
+    #image1
+    { 
+        display: flex;
+    }
+    #image
+    { 
+        display: flex;
+    }
+#header
+{ 
+    display: flex; 
+}
+#home-pic 
+{
+    max-width:100%;
+}
+   
+#toggle-nav {
+    display:none;
+  }
+
+
+}   
+
+
+    
+    
+    
