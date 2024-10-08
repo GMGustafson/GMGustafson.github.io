@@ -1,10 +1,18 @@
 /*Structure*/ 
+:root
+{ 
+  --background-color: #cce6fd;
+  --gray-color:#e9ecef;
+  --border-color:#023047; 
+  --blue-color:#023047; 
+}
 
 body
 { 
-    background: lightpink; 
+    background: var(--gray-color);  
     font-family: Arial, Helvetica, sans-serif; 
-}
+    color:var(--blue-color);
+  }
 
 #heading
 {
@@ -15,20 +23,14 @@ body
   margin: auto; 
   width:fit-content;
   font-size: large;
-}
-#subheading
-{
-  padding: 0px; 
-  margin: 0px; 
-  width:70%; 
-  padding-left:0;
-  padding-top: -50px;
-  margin: auto; 
-  width:fit-content;
-  text-decoration: none; 
-  color: black; 
   text-align: center;
-  font-size: x-large;
+}
+
+#categoryname
+{ 
+  background-color:#023047;
+  color:#cce6fd;
+  text-align: center;
 }
 #assignment-pages
 { 
@@ -38,88 +40,88 @@ body
 
 #assignment-1
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #assignment-2
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px; 
+  border:5px solid var(--border-color);
 }
 #assignment-3
 {
-  background: lightgray;  
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #assignment-4
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #assignment-5
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;   
+  border:5px solid var(--border-color);
 }
 #assignment-6
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;   
+  border:5px solid var(--border-color);
 }
 #assignment-7
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #assignment-8
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #assignment-9
 {
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #photo
 { 
-  border: 5px solid black;
+  border: 5px solid var(--blue-color);
 }
 
 
@@ -131,46 +133,46 @@ body
 
 #Project-1
 { 
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 
 a
 {
   text-decoration: none;  
-  color: black;
+  color: var(--blue-color);
 }
 
 #Project-2
 { 
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #Project-3
 { 
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 #Project-4
 { 
-  background: lightgray; 
+  background: var(--background-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
-  border-radius: 30px;  
-  border:5px solid black;
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
 }
 
 img
