@@ -1,33 +1,33 @@
-
-const getBrewery = async() => 
-{ 
-
-    const url = "https://api.openbrewerydb.org/breweries";
-
+const getBreweries = async() => {
     try {
-        const response = await fetch(url);
-        console.log("hii"); 
-        return response.json();
-    } catch(error){
+        return (await fetch("https://api.openbrewerydb.org/breweries")).json();
+    } catch(error) {
         console.log(error);
+    }
 }
-}
 
-const showBrewery = async() => {
+const showBreweries = async() => {
+    const breweries = await getBreweries();
 
-    const brewery = await getBrewery(); 
+    breweries.forEach((brewery)=>{
+        const section = document.createElement("section");
+        section.classList.add("brewery");
+        document.getElementById("breweries-section").append(section);
 
-    brewery.forEach((brewery) => {
-        document.getElementById("breweries-section").append(getBrewerySection(brewery)); 
+        //create the heading
+        const a = document.createElement("a");
+        a.href= brewery.website_url;
+        section.append(a);
+        const h3 = document.createElement("h3");
+        h3.innerHTML = brewery.name;
+        a.append(h3);
+
+        //brewery type
+        const p = document.createElement("p");
+        p.innerHTML = brewery.brewery_type + " brewery";
+        section.append(p);
+        
     });
 }
 
-const getBrewerySection = (brewery) => {
-
-    const section = document.createElement("section"); 
-
-
-
-}
-
-
+showBreweries();

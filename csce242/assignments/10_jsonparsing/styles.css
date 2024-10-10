@@ -1,0 +1,49 @@
+:root
+{
+    --primary-color: rgb(199, 199, 250); 
+    --secondary-color: gray; 
+
+}
+
+/* Typography */
+
+.dialog
+{ 
+  display: block;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#heading 
+{ 
+  text-align: center;
+}
+
+html 
+{ 
+    background-color:var(--primary-color); 
+}
+
+img
+{ 
+    align-items: center;
+}
+
+
+
+  
+@media only screen and (min-width: 600px) {
+    .columns 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1%;
+  }
+}
