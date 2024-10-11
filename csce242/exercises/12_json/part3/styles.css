@@ -65,11 +65,13 @@
     text-align: center;
   }
   
-  .drink img {
+  img {
     max-width: 40%;
     display: block;
     margin: auto;
   }
+
+
   
   /* Larger Resolutions */
   @media (min-width: 900px) {
