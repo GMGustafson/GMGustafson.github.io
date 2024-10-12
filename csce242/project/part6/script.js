@@ -4,3 +4,4 @@ and hiding the nav items */
 document.querySelector("#toggle-nav").onclick = () => {
     document.getElementById("nav-items");
 }
+

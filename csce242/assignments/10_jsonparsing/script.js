@@ -24,18 +24,20 @@ const getIceCreamSection = (iceCream) => {
     image.src = "images/" + iceCream.image; 
     section.appendChild(image);
 
-
+}; 
    
 // hover 
+const getnamesection = (iceCream, section) => { 
+    const namesection = document.createElement("section"); 
+    namesection.id = `${iceCream.name} - name`;  
+    namesection5.classList.add("name", "hidden"); 
+    section.append(namesection); 
 
-const namesection = document.createElement("section"); 
-namesection.id = `${iceCream.name} - name`;  
-namesection.classList.add("name", "hidden"); 
-section.append(namesection); 
+    const name = document.createElement("p"); 
+    name.innerHTML = iceCream.name; 
+    namesection.append(name); 
+};
 
-const name = document.createElement("p"); 
-name.innerHTML = iceCream.name; 
-namesection.append(name); 
 
 section.addEventListener("mouseover", () => 
     { 
