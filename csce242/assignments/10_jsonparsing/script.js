@@ -24,34 +24,18 @@ const getIceCreamSection = (iceCream) => {
     image.src = "images/" + iceCream.image; 
     section.appendChild(image);
 
+    const div = document.createElement("div");
+    div.classList.add("overlay");
+
+    const overlayText = document.createElement("p");
+    overlayText.innerHTML = iceCream.name;
+    div.append(overlayText);
+
+    section.append(div);
+    return section;  
 }; 
-   
-// hover 
-const getnamesection = (iceCream, section) => { 
-    const namesection = document.createElement("section"); 
-    namesection.id = `${iceCream.name} - name`;  
-    namesection5.classList.add("name", "hidden"); 
-    section.append(namesection); 
-
-    const name = document.createElement("p"); 
-    name.innerHTML = iceCream.name; 
-    namesection.append(name); 
-};
 
 
-section.addEventListener("mouseover", () => 
-    { 
-        namesection.classList.remove("hidden"); 
-    }); 
-section.addEventListener("mouseout", () => 
-    { 
-        namesection.classList.add("hidden"); 
-    });    
 
-    return section;
-
-};
 // Show all of the ice creams when the page loads
 showIceCream();
-
-

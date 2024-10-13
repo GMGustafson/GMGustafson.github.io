@@ -40,10 +40,10 @@ img {
   width: 300px;   
   height: 300px;   
 }   
-.container {   
-  position: relative;   
-  width: 25%;   
-  height: auto;  
+section{   
+  position: relative; 
+  display: inline-block; 
+  margin: 10px; 
 }   
   
 .overlay{   
@@ -55,6 +55,7 @@ img {
   left: 20px;   
   background-color: lightblue;   
 opacity: 0;  
+color: black;
 }   
 .container:hover .overlay {   
   opacity: 0.9;   
