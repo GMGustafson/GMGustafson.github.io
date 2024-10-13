@@ -102,8 +102,8 @@ html
     font-weight: bold;
     background-color: #7D1A1D;
     color:white; 
-    margin-bottom: 3px;
-    margin-top:3px; 
+    margin-bottom: 5px;
+    margin-top:5px; 
 }
 #footer
 {
@@ -259,36 +259,44 @@ background: var(--sixth-color);
 
 #pricing-delivery
 {
-  background: var(--sixth-color); 
+  background:#f1f1f1;
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
-  box-shadow: 10px 10px;
+  box-shadow: 5px 5px;
   font-size: 20px;
   text-align: center;
 }
 #Trucking
 {
-  background: var(--sixth-color); 
+  background: #f1f1f1;
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
-  box-shadow: 10px 10px;
+  box-shadow: 5px 5px;
   font-size: 20px;
   text-align: center;
 }
 #Pallets
 {
-  background: var(--sixth-color); 
+  background:#f1f1f1; 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
-  box-shadow: 10px 10px;
+  box-shadow: 5px 5px;
   font-size: 20px;
   text-align: center;
+}
+ ul
+{ 
+   list-style-type: none;
+   text-align: center;
+}
+li {
+    line-height: 1.8; 
 }
 #product-pic
 { 
@@ -309,7 +317,7 @@ company
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
-  box-shadow: 10px 10px;
+  box-shadow: 5px 5px;
 }
 
 h3 
