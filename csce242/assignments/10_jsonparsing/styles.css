@@ -56,6 +56,7 @@ section{
   background-color: lightblue;   
 opacity: 0;  
 color: black;
+cursor: pointer;
 }   
 .container:hover .overlay {   
   opacity: 0.9;   

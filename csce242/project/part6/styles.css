@@ -98,8 +98,12 @@ html
 #page-heading
 { 
     text-align: center;
-    font-size: 40px;
+    font-size:35px;
     font-weight: bold;
+    background-color: #7D1A1D;
+    color:white; 
+    margin-bottom: 3px;
+    margin-top:3px; 
 }
 #footer
 {
@@ -184,12 +188,16 @@ background: var(--sixth-color);
 #link
 { 
     text-decoration: none; 
-    color: var(--seventh-color); 
+    color: var(--seventh-color);
     display: block;
     text-align: center;
     font-size: x-large;
-    background-color: var(--third-color);
 }
+#link:hover
+{ 
+    background-color: #7D1A1D;
+}
+
 
 #order
 { 
@@ -239,11 +247,16 @@ background: var(--sixth-color);
 
 
 /*products*/
-#productsPage 
+
+#products 
 { 
     background-color: #8a3134;
-    
 }
+#products-1
+{
+    background-color: #8a3134;
+}
+
 #pricing-delivery
 {
   background: var(--sixth-color); 
@@ -252,6 +265,8 @@ background: var(--sixth-color);
   width:70%; 
   border:5px solid var(--primary-color);
   box-shadow: 10px 10px;
+  font-size: 20px;
+  text-align: center;
 }
 #Trucking
 {
@@ -261,6 +276,8 @@ background: var(--sixth-color);
   width:70%; 
   border:5px solid var(--primary-color);
   box-shadow: 10px 10px;
+  font-size: 20px;
+  text-align: center;
 }
 #Pallets
 {
@@ -269,7 +286,13 @@ background: var(--sixth-color);
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
-  box-shadow: 10px 10px gray;
+  box-shadow: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#product-pic
+{ 
+    max-width: 100%;
 }
 
 
