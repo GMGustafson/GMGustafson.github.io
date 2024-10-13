@@ -1,5 +1,6 @@
+
 const getReviews = async() => {
-    const url = "https://portiaportia.github.io/json/shoes.json";
+    const url = "https://gmgustafson.github.io/csce242/project/part6/reviews.json";
 
     try {
         const response = await fetch(url);
@@ -9,21 +10,36 @@ const getReviews = async() => {
     }
 };
 
-const showShoes = async() => {
-    const shoes = await getShoes();
+const showReviews = async() => {
+    const reviews = await getReviews();
     
-    shoes.forEach((shoe)=>{
-        document.getElementById("shoes-section").append(getShoeSection(shoe));
+    reviews.forEach((review) => {
+        document.getElementById("reviews-section").append(getReviewSection(review));
     });
 };
 
-const getShoeSection = (shoe) => {
-    const section = document.createElement("section");
+const getReviewSection = (review) => {
+    const section = document.createElement("company");
 
     const h3 = document.createElement("h3");
-    h3.innerHTML = shoe.name;
+    h3.innerHTML = review.companyName;  
     section.append(h3);
 
-    const brandP = document.createElement("p");
-    brandP.innerHTML = shoe.brand;
-    section.append(brandP);
+    const reviewP = document.createElement("p");
+    reviewP.innerHTML = review.review;  
+    section.append(reviewP);
+
+    const reviewerP = document.createElement("p");
+    reviewerP.innerHTML = `Reviewed by: ${review.reviewersName} on ${review.date}`;
+    section.append(reviewerP);
+
+    const img = document.createElement("img");
+    img.src = review.image;  
+    img.alt = review.companyName;
+    section.append(img);
+
+    return section;
+}
+
+// Call showReviews to display the reviews on page load
+showReviews();

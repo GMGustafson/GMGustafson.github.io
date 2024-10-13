@@ -30,12 +30,19 @@ html
     text-align: center;
     justify-content: center;
 }
-
-#home-pic
-{
-    max-width: 100%;
-    justify-content: center;
+#home-pics {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    padding: 20px; /* Add some padding around the image */
+    background-color: #8a3134;
 }
+
+#home-pic {
+    max-width: 100%; /* Ensures the image scales responsively */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-height: 100% ;
+}
+
 #main-nav ul
 { 
     padding-left:0;
@@ -88,10 +95,10 @@ html
 }
 
 
-#heading
+#page-heading
 { 
     text-align: center;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
 }
 #footer
@@ -232,6 +239,11 @@ background: var(--sixth-color);
 
 
 /*products*/
+#productsPage 
+{ 
+    background-color: #8a3134;
+    
+}
 #pricing-delivery
 {
   background: var(--sixth-color); 
@@ -239,6 +251,7 @@ background: var(--sixth-color);
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
+  box-shadow: 10px 10px;
 }
 #Trucking
 {
@@ -247,6 +260,7 @@ background: var(--sixth-color);
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
+  box-shadow: 10px 10px;
 }
 #Pallets
 {
@@ -255,6 +269,7 @@ background: var(--sixth-color);
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
+  box-shadow: 10px 10px gray;
 }
 
 
@@ -264,20 +279,44 @@ background: var(--sixth-color);
 
 
 /*reviews*/
-#reviewer
+company
 {
   background: var(--sixth-color); 
   padding: 10px; 
   margin: 20px; 
   width:70%; 
   border:5px solid var(--primary-color);
+  box-shadow: 10px 10px;
 }
 
-#reviewerimg
-{
-    max-width: 200px;
-    max-height: 100px;
+h3 
+{ 
+    color:#8a3134; 
+    font-weight: bold;
+    font-size: 26px;
+   font: modern serif; 
 }
+#reviewP
+{
+    font-size: 20px;
+}
+#reviewerP
+{ 
+    font-size: 20px;
+    
+}
+
+#reviews-section
+{ 
+    background-color:#8a3134;
+}
+
+img
+{
+   max-height: 300px;
+   max-width: 200px; 
+}
+
 /* apply to 600px or bigger */
 @media only screen and (min-width:600px){
     #main-nav li
