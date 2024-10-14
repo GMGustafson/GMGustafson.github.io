@@ -4,15 +4,15 @@ const getIceCream = async () => {
     try {
         const response = await fetch(url);
         return response.json();
-    } catch(error) {
+    } catch (error) {
         console.log(error);
     }
 };
 
 const showIceCream = async () => {
-    const iceCream = await getIceCream();
+    const iceCreams = await getIceCream();
     
-    iceCream.forEach((iceCream) => {
+    iceCreams.forEach((iceCream) => {
         document.getElementById("Ice-cream-section").append(getIceCreamSection(iceCream));
     });
 };
@@ -32,10 +32,17 @@ const getIceCreamSection = (iceCream) => {
     div.append(overlayText);
 
     section.append(div);
+
+    section.addEventListener("mouseover", () => { 
+        div.style.opacity = "1";  
+    });
+
+    section.addEventListener("mouseout", () => { 
+        div.style.opacity = "0"; 
+    });
+    
     return section;  
-}; 
-
-
+};
 
 // Show all of the ice creams when the page loads
 showIceCream();
