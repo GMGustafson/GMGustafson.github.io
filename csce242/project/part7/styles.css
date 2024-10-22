@@ -2,7 +2,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #bfbfbf; 
-    --third-color:#7D1A1D;
+    --third-color:#7C191E;
     --fourth-color:rgb(81, 79, 79);
     --fifth-color: #f6eded; 
     --sixth-color: #c9c9c9;
@@ -34,7 +34,7 @@ html
     display: flex;
     justify-content: center; /* Centers the image horizontally */
     padding: 20px; /* Add some padding around the image */
-    background-color: #8a3134;
+    background-color: var(--third-color);
 }
 
 #home-pic {
@@ -115,7 +115,7 @@ html
     text-align: center;
     font-size:35px;
     font-weight: bold;
-    background-color: #7D1A1D;
+    background-color: var(--third-color);
     color:white; 
     margin-bottom: 5px;
     margin-top:5px; 
@@ -132,7 +132,7 @@ html
 /* about us*/
 #about-us
 { 
-    background-color: #8a3134;
+    background-color:var(--third-color);
     margin-bottom: 5px;
 }
 #about-us11
@@ -157,7 +157,7 @@ html
 /*contact us*/
 #contact-us
 { 
-    background-color: #8a3134;
+    background-color: var(--third-color);
 }
 #papa  
 {
@@ -226,7 +226,7 @@ background: white;
 }
 #link:hover
 { 
-    background-color: #7D1A1D;
+    background-color: var(--third-color);
 }
 
 
@@ -271,7 +271,7 @@ background: white;
     justify-content: center; 
     align-items: center;     
     margin: 0 auto;
-    background-color: #8a3134;
+    background-color: var(--third-color);
 }
 #gallery, #product-gallery, #aboutus-gallery {
     margin: 10px;
@@ -285,11 +285,11 @@ background: white;
 
 #products 
 { 
-    background-color: #8a3134;
+    background-color:var(--third-color);
 }
 #products-1
 {
-    background-color: #8a3134;
+    background-color: var(--third-color);
 }
 
 #pricing-delivery
@@ -357,7 +357,7 @@ company
 
 h3 
 { 
-    color:#7D1A1D; 
+    color:var(--third-color); 
     font-weight: bold;
     font-size: 26px;
    font: modern serif; 
@@ -373,7 +373,7 @@ h3
 
 #reviews-section
 { 
-    background-color:#8a3134;
+    background-color:var(--third-color);
 }
 
 img

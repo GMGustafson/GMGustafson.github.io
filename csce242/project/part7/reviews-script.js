@@ -1,6 +1,6 @@
 
 const getReviews = async() => {
-    const url = "https://gmgustafson.github.io/csce242/project/part6/reviews.json";
+    const url = "https://gmgustafson.github.io/csce242/project/part7/reviews.json";
 
     try {
         const response = await fetch(url);
