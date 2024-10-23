@@ -133,6 +133,25 @@ body
   border: 5px solid var(--blue-color);
 }
 
+#ServerSide-1
+{
+  background: var(--background-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
+}
+
+#ServerSide-2
+{
+  background: var(--background-color); 
+  padding: 10px; 
+  margin: 20px; 
+  width:70%; 
+  border-radius: 10px;  
+  border:5px solid var(--border-color);
+}
 
 
 #project-pages
