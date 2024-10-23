@@ -117,8 +117,6 @@ html
     font-weight: bold;
     background-color: var(--third-color);
     color:white; 
-    margin-bottom: 5px;
-    margin-top:5px; 
 }
 #footer
 {
@@ -381,6 +379,59 @@ img
    max-height: 300px;
    max-width: 100%; 
 }
+#iframe
+{
+   border:5px solid #000000 
+}
+
+
+#form
+{ 
+    color: #000000;
+}
+
+
+#form-frame
+{
+    background-color: var(--third-color);
+}
+#contact-form
+{
+    background-color: var(--seventh-color);
+    align-content: center;
+    margin-left: 50px;
+    border:5px solid #000000;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    color: var(--third-color);
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#name-id, #email-id,#message-id
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--primary-color)
+}
+button[type="submit"] {
+    color: var(--third-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--third-color);
+    color: var(--fifth-color);
+}
+
+
 
 /* apply to 600px or bigger */
 @media only screen and (min-width:600px){
