@@ -14,22 +14,7 @@
             console.log("Email:", email);
             console.log("Message:", message);
         };
-        
-        // const getRadioValue = (radioName) => 
-        // { 
-        //     const radios = document.getElementsByName(radioName); 
-        
-        //     for (let i in radios) 
-        //     { 
-        //         if (radios[i].checked)
-        //         { 
-        //             return radios[i].value; 
-        //         }
-        //     }
-        
-        //     return ""; 
-        
-        // }; 
+    
         
         
         
