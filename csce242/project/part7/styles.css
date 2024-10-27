@@ -168,6 +168,8 @@ html
     text-align: center;
     box-shadow: 5px 5px;
     font-size: 25px;
+    align-items: center;
+    /*display: block;*/
 }
 #papa-pic
 { 
@@ -187,6 +189,8 @@ background: white;
   text-align: center;
   box-shadow: 5px 5px;
   font-size: 25px;
+  align-items: center;
+  /*display: block;*/
 }
 #mom-pic
 { 
@@ -206,6 +210,8 @@ background: white;
     text-align: center;
     box-shadow: 5px 5px;
     font-size: 25px;
+    align-items: center;
+    /*display: block;*/
 }
 #nana-pic
 { 
@@ -509,16 +515,26 @@ img
     display:none;
   } 
 
-  /* #papa  
+  #papa  
   { 
-    display: flex;
-  } */
+    /*display: flex;*/  
+  }
+  #nana  
+  { 
+    /*display: flex;*/
+  }
+  #mom  
+  { 
+    /*display: flex;*/
+  }
   #contact-us
   { 
-    display: flex;
+    /*display: flex;*/
   }
   contact-form
   { 
     display: flex;
   }
+
 }
+
