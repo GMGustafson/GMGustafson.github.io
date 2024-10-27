@@ -2,7 +2,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #bfbfbf; 
-    --third-color:#7C191E;
+    --third-color:#7C1A1C; 
     --fourth-color:rgb(81, 79, 79);
     --fifth-color: #f6eded; 
     --sixth-color: #c9c9c9;
@@ -261,7 +261,7 @@ input[type="text"], input[type="email"], textarea {
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    color: var(--third-color);
+    color:var(--third-color); 
     box-sizing: border-box;
     font-size: 15px;
 }
@@ -507,7 +507,7 @@ img
 }
 #iframe
 { 
-    display: flex;
+    max-width: 100%;
 }
 
    
@@ -515,22 +515,19 @@ img
     display:none;
   } 
 
-  #papa  
+  /* #papa  
   { 
     /*display: flex;*/  
-  }
-  #nana  
+  /* #nana  
   { 
     /*display: flex;*/
-  }
-  #mom  
+  /* #mom  
   { 
     /*display: flex;*/
-  }
-  #contact-us
-  { 
-    /*display: flex;*/
-  }
+  /* }
+  #contact-us */
+
+    /*display: flex;*/ 
   contact-form
   { 
     display: flex;
