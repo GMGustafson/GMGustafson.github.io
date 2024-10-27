@@ -229,9 +229,9 @@ background: white;
 /*form and iframe*/
 #iframe
 {
-   border:5px solid #000000 
+   border:5px solid #000000;
+   max-width: 100%;         
 }
-
 
 #form
 { 
@@ -499,9 +499,26 @@ img
 {
     max-width:100%;
 }
+#iframe
+{ 
+    display: flex;
+}
+
    
 #toggle-nav {
     display:none;
   } 
 
+  /* #papa  
+  { 
+    display: flex;
+  } */
+  #contact-us
+  { 
+    display: flex;
+  }
+  contact-form
+  { 
+    display: flex;
+  }
 }
