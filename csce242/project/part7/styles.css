@@ -413,6 +413,7 @@ company
   width:70%; 
   border:5px solid var(--primary-color);
   box-shadow: 5px 5px;
+  flex-wrap: wrap;
 }
 
 h3 
