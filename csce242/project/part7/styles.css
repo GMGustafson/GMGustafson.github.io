@@ -113,7 +113,7 @@ html
 #page-heading
 { 
     text-align: center;
-    font-size:35px;
+    font-size:40px;
     font-weight: bold;
     background-color: var(--third-color);
     color:white; 
@@ -516,23 +516,8 @@ img
     display:none;
   } 
 
-  /* #papa  
-  { 
-    /*display: flex;*/  
-  /* #nana  
-  { 
-    /*display: flex;*/
-  /* #mom  
-  { 
-    /*display: flex;*/
-  /* }
-  #contact-us */
-
-    /*display: flex;*/ 
-  contact-form
-  { 
-    display: flex;
-  }
+  
+  
 
 }
 
